@@ -34,15 +34,15 @@ This guide outlines the essential requirements and procedures for installing osT
 The first step is to create a virtual machine on Azure. 
 Choose the image or base operating machine as Windows 10 Pro, version 22H2.</p>
 <p>
-<img width="758" alt="VM setup-windows 10" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/a22b387c-d396-4fe5-8db9-7c2677941a30">
+<img src="https://imgur.com/7KWTlha.png">
 
 <p>
 </p>
 <p>
-<strong> NOTE: Make sure to set the size to at least 2 vcpus and 16 GiB memory. 
+<strong> NOTE: Make sure to set the size to either 2 or 4 vcpus and 16 GiB memory. 
 And confirm that RDP (3389) is allowed in "Select inbound ports" in order to allow Remote Desktop access to the VM.</strong> </p>
 <p>
-<img width="757" alt="VM inbound ports" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/3eb204b9-a099-4656-a4ec-9d8badb1f56b">
+<img src="https://imgur.com/0cSzcOF.png">
 
 
 
@@ -53,14 +53,14 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 </p>
 <p>
 <h3>&#9313; Review and Create </h3>
-<p>Click on the last check box to confirm an eligible Windows 10 license then proceed to "Review + create". A validation process will occur then once it has passed simply continue to create.</p>
+<p>Click on the last check box to confirm an eligible Windows 10 license, then proceed to "Review + Create". A validation process will occur then once it has passed, continue to create.</p>
 
 </p>
 <br>
 <h3>&#9314; Find your VM's public IP address</h3>
-<p></p>Allow some time for your deployment to complete then find your VM's public IP address and copy it.</p>
+<p></p>Allow some time for your deployment to complete, then find your VM's public IP address and copy it.</p>
 <p>
-<img width="1009" alt="VM IP ADDRESS" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/9b3ffb24-60c9-421d-a22e-c4035c1b9fe4">
+<img src="https://imgur.com/N8uWjI4.png">
 
 
 </p>
