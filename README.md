@@ -68,19 +68,19 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <h3>&#9315; Connect to your VM using the Remote Desktop Connection app</h3>
 <p>Open your Remote Desktop Connection app and paste the VM's IP and login with the same login credentials used to create the VM.</p>
 <p>
-<img width="302" alt="Remote desktop app" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/f331b259-db5b-447d-a05c-0367ef4297a0">
+<img src="https://imgur.com/YGLRE3X.png">
 
 
 </p>
 <br />
 <h3>&#9316; Enable IIS </h3>
 <p> Once the VM is open, we will have to install / enable IIS. Go to the Control Panel and open the programs applet. Under programs, select "Turn Windows features on or off".</p>
-<p> <img width="552" alt="CONTROL PANEL PROGRAMS" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/52defb88-4165-4b34-bbea-8292bc2890c8">
+<p> <img src="https://imgur.com/2PPYmYx.png">
 
   
 </p>
-<p>Then you will have to enable and expand the following features:</p>
-<p><img width="295" alt="Checklist 2" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/0b7b096f-43e7-47a8-a3ef-5500a360453d">
+<p>Next, you will have to enable and expand the following features:</p>
+<p><img src="https://imgur.com/pMlyKR0.png">
 </p>
 <p> [X] Internet Information Services</p>
 <p>[X] Web Management Tools </p>
@@ -93,7 +93,7 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <p> Click okay and the features should be enabled.</p>
 <br>
 <p> <strong> NOTE: To quickly test if the changes were applied succesfully, simply type 127.0.0.1 on your browser and the page below should appear. </strong></p>
-<img width="1094" alt="WINDOWS IIS" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/4836fb28-6fcf-403d-853b-f412c707295c">
+<img src="https://imgur.com/nqv8e9h.png">
 <br> <br>
 <h3>&#9317; Download and Install PHP Manager</h3>
 <p> Simply download and install PHP manager from the <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> installation files </a>(PHPManagerForIIS_V1.5.0.msi) 
