@@ -20,9 +20,9 @@ This guide outlines the essential requirements and procedures for installing osT
 
 - IIS
 - PHP Manager
+- Rewrite Module
 - VC_redistx86
 - MySQL 5.5.62
-- Rewrite Module
 - Heidi SQL
 
 <h2>Installation Steps</h2>
