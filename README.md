@@ -34,7 +34,7 @@ This guide outlines the essential requirements and procedures for installing osT
 The first step is to create a virtual machine on Azure. 
 Choose the image or base operating machine as Windows 10 Pro, version 22H2.</p>
 <p>
-<img src="https://imgur.com/7KWTlha.png">
+<img width="800" src="https://imgur.com/7KWTlha.png">
 
 <p>
 </p>
@@ -42,7 +42,7 @@ Choose the image or base operating machine as Windows 10 Pro, version 22H2.</p>
 <strong> NOTE: Make sure to set the size to either 2 or 4 vcpus and 16 GiB memory. 
 And confirm that RDP (3389) is allowed in "Select inbound ports" in order to allow Remote Desktop access to the VM.</strong> </p>
 <p>
-<img src="https://imgur.com/0cSzcOF.png">
+<img width="750" src="https://imgur.com/0cSzcOF.png">
 
 
 
@@ -60,7 +60,7 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <h3>&#9314; Find your VM's public IP address</h3>
 <p></p>Allow some time for your deployment to complete, then find your VM's public IP address and copy it.</p>
 <p>
-<img src="https://imgur.com/N8uWjI4.png">
+<img width="700" src="https://imgur.com/N8uWjI4.png">
 
 
 </p>
@@ -68,19 +68,19 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <h3>&#9315; Connect to your VM using the Remote Desktop Connection app</h3>
 <p>Open your Remote Desktop Connection app and paste the VM's IP and login with the same login credentials used to create the VM.</p>
 <p>
-<img src="https://imgur.com/YGLRE3X.png">
+<img width="700" src="https://imgur.com/YGLRE3X.png">
 
 
 </p>
 <br />
 <h3>&#9316; Enable IIS </h3>
 <p> Once the VM is open, we will have to install / enable IIS. Go to the Control Panel and open the programs applet. Under programs, select "Turn Windows features on or off".</p>
-<p> <img src="https://imgur.com/2PPYmYx.png">
+<p> <img width="750" src="https://imgur.com/2PPYmYx.png">
 
   
 </p>
 <p>Next, you will have to enable and expand the following features:</p>
-<p><img src="https://imgur.com/pMlyKR0.png">
+<p><img width="400" src="https://imgur.com/pMlyKR0.png">
 </p>
 <p> [X] Internet Information Services</p>
 <p>[X] Web Management Tools </p>
@@ -93,25 +93,25 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <p> Click okay and the features should be enabled.</p>
 <br>
 <p> <strong> NOTE: To quickly test if the changes were applied succesfully, simply type 127.0.0.1 on your browser and the page below should appear. </strong></p>
-<img src="https://imgur.com/nqv8e9h.png">
+<img width="900" src="https://imgur.com/nqv8e9h.png">
 <br> <br>
 <h3>&#9317; Download and Install PHP Manager</h3>
 <p> Simply download and install PHP manager from the <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> installation files </a>(PHPManagerForIIS_V1.5.0.msi) 
 </p> <br>
-<p><img width="386" alt="PHP Manager" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/566a1c1c-3731-4ff7-a74c-10a21b84a851">
+<p><img width="386" src="https://imgur.com/DbU0lk6.png">
 </p> 
 <br>
 <h3>&#9318; Download and Install the Rewrite Module</h3>
 <p> Download and install the rewrite module (rewrite_amd64_en-US.msi) from the <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> installation files </a> </p>
-<p><img width="386" alt="rewrite module" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/177cc396-71e3-4658-9084-3e6fae94c1a5"></p>
+<p><img width="386" alt="rewrite module" src="https://imgur.com/dM5GWpc.png"></p>
 <h3>&#9319; Create a new directory</h3>
 <p>Proceed to File Explorer and create the directory C:\PHP </p>
-<img width="647" alt="PHP" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/683aa120-d73c-4bce-bf6d-f58309fdac5c">
+<img width="647" alt="PHP" src="https://imgur.com/o6lzV8L.png">
 <br>
 <br>
 <h3>&#9320; Download and install php-7.3.8-nts-Win32-VC15-x86.zip </h3>
 <p> Download and install php-7.3.8-nts-Win32-VC15-x86.zip from the <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> installation files </a> and unzip the contents into the newly created C:\PHP </p>
-<img width="631" alt="PHP zip" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/b43949f3-78a7-4ab8-a526-dfd4f159d2d6">
+<img width="720" alt="PHP zip" src="https://imgur.com/qTk4Jvs.png">
 <br>
 <h3>&#9321; Download and install VC_redist.x86.exe </h3>
 <br>
@@ -122,21 +122,21 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <p>[X]Standard Configuration 
 </p>
 <br>
-<img width="383" alt="mysql" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/964a5ada-7d58-4efd-a0f2-6744610d999d">
+<img width="420" alt="mysql" src="https://imgur.com/7bAjTu8.png">
 <br>
 <h3>&#9323; Launch IIS as an administrator</h3>
 <p> Search for IIS in the windows search bar and right click it and select open as administrator</p>
 <br>
 <h3>&#9324; Register PHP Manager </h3>
 <br>
-<img width="682" alt="PHP registration 2" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/a3282eb4-90ea-474b-9259-33bfa4d01957">
+<img width="720" alt="PHP registration 2" src="https://imgur.com/TqBGNXk.png">
 
 <br>
 <br>
 <p><strong> NOTE: Registration will require you to provide a path to "php-cgie.exe". Simply lead it to the PHP folder previously created and you will find the file it is asking for. 
 </strong></p>
 <br>
-<img width="623" alt="PHP path " src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/ac6d2463-c9ef-4803-b3d6-3e5d4a9bc177">
+<img width="700" alt="PHP path " src="https://imgur.com/XhTcV2b.png">
 
 <br>
 <p>
@@ -160,7 +160,7 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <br>
 <h3>&#9328; Launch osTicket </h3>
 <p>On the left hand side of IIS, Expand on the VM name -> Sites - > Default Website -> osTicket </p>
-<img width="623" alt="osTicket" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/93165771-1d49-430c-a66a-cc2cf3c87e93">
+<img width="623" alt="osTicket" src="https://imgur.com/xcY5ZMu.png">
 <p></p>
 <p><strong>NOTE: Make sure to click on osTicket</strong></p>
 <p><strong>.</strong></p>
@@ -168,14 +168,14 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <p><strong>.</strong></p>
 <h3>&#9329; Click on Browse *80 to launch osTicket</h3>
 <p> On the right side of the window, click on browse *80 </p>
-<img width="623" alt="browse80" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/53e70118-0357-4f5e-aa56-77560edec238">
+<img width="623" alt="browse80" src="https://imgur.com/VrPM2ii.png">
 <br>
 <br>
 <br>
 <p><strong>This should then lead to your browser opening osTicket</strong>.</p>
 <br>
 <br>
-<img width="664" alt="osTicket browser" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/258689e2-a099-43e1-a555-a70eb7ad1e9d">
+<img width="664" alt="osTicket browser" src="https://imgur.com/yOa0Jy8.png">
 <br>
 <br>
 <br>
@@ -185,14 +185,14 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <p>[X]Enable: php_imap.dll</p>
 <p>[X]Enable: php_intl.dll</p>
 <p>[X]Enable: php_opcache.dll</p>
-<img width="273" alt="php enable 2" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/f384957a-2228-47d9-9249-987c929eb691">
+<img width="273" alt="php enable 2" src="https://imgur.com/zEFHkoN.png">
 <br>
 <br>
 <br>
 <h3>&#9331; Refresh osTicket</h3>
 
 <p>Refresh the osTicket page on the browser and notice some extensions will now appear active.</p>
-<img width="608" alt="OSticket changes" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/5d6aded2-86bf-44b8-b20f-5035e912cd44">
+<img width="608" alt="OSticket changes" src="https://imgur.com/bdJ05kP.png">
 <br>
 <br>
 <br>
@@ -200,7 +200,7 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <h3>&#12881; Rename ost-config.ph</h3>
 
 <p> Under C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php, rename "ost-sampleconfig.ph" to "ost-config.ph"</p>
-<img width="527" alt="ostconfig rename" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/1dcd19e8-6b76-4d83-9d59-17dc4ef5b28f">
+<img width="527" alt="ostconfig rename" src="https://imgur.com/yP1YTT0.png">
 <br>
 <br>
 <br>
@@ -210,14 +210,14 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <p>Change ost-config.php permissions by right clicking and selecting</p>
 <p>Properties -> Security -> Advance -> Disable inheritance</p> 
 <p>Select remove all inherited permissions and add everyone as a principal. Select all boxes to ensure all permissions are granted. </p>
-<img width="571" alt="Permissions" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/d634bc06-dcc0-4b41-814d-1f7de0afa0bf">
+<img width="571" alt="Permissions" src="https://imgur.com/mANNCMT.png">
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 
 <h3>&#12883; Continue osTicket installation</h3>
 
 <p> Continue the osTicket installer on your browser by filling the first half of the page.</p>
-<img width="611" alt="osticket signup" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/1df4ef77-85f3-4f36-bf93-44ce3e910d64">
+<img width="611" alt="osticket signup" src="https://imgur.com/m7WratO.png">
 <br>
 <br>
 <p><strong>NOTE: Don't worry about the database credentials. We'll fill those out later.</strong> </p>
