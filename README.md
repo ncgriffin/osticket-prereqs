@@ -34,7 +34,7 @@ This guide outlines the essential requirements and procedures for installing osT
 The first step is to create a Virtual Machine (VM) on Azure. 
 Choose the image or base operating machine as Windows 10 Pro, version 22H2.</p>
 <p>
-<img width="800" src="https://imgur.com/7KWTlha.png">
+<img width="800" src="https://imgur.com/INXIICl.png">
 
 <p>
 </p>
@@ -42,7 +42,7 @@ Choose the image or base operating machine as Windows 10 Pro, version 22H2.</p>
 <strong> NOTE: Make sure to set the size to either 2 or 4 vcpus and 16 GiB memory. 
 Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Desktop access to the VM.</strong> </p>
 <p>
-<img width="750" src="https://imgur.com/0cSzcOF.png">
+<img width="750" src="https://imgur.com/aTcFD7k.png">
 
 
 
@@ -60,7 +60,7 @@ Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Des
 <h3>&#9314; Find your VM's public IP address</h3>
 <p></p>Allow a small time window for your deployment to complete, then locate your VM's public IP address and copy it.</p>
 <p>
-<img width="700" src="https://imgur.com/N8uWjI4.png">
+<img width="700" src="https://imgur.com/9HWXoRu.png">
 
 
 </p>
@@ -68,19 +68,19 @@ Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Des
 <h3>&#9315; Connect to your VM using the Remote Desktop Connection app</h3>
 <p>Open your Remote Desktop Connection app and paste the VM's IP address, then login credentials used to create the VM.</p>
 <p>
-<img width="700" src="https://imgur.com/YGLRE3X.png">
+<img width="700" src="https://imgur.com/TL41GIq.png">
 
 
 </p>
 <br />
 <h3>&#9316; Enable IIS </h3>
 <p> Once the VM is open, we will need to install/enable IIS. Open Control Panel -> Programs -> Turn Windows features on or off</p>
-<p> <img width="750" src="https://imgur.com/2PPYmYx.png">
+<p> <img width="750" src="https://imgur.com/Llx72Yj.png">
 
   
 </p>
-<p>Next, you will have to enable and expand the following features:</p>
-<p><img width="400" src="https://imgur.com/pMlyKR0.png">
+<p>Enable and expand the following features:</p>
+<p><img width="400" src="https://imgur.com/DdrwoVU.png">
 </p>
 <p> [X] Internet Information Services</p>
 <p>[X] Web Management Tools </p>
@@ -106,12 +106,12 @@ Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Des
 <p><img width="386" alt="rewrite module" src="https://imgur.com/dM5GWpc.png"></p>
 <h3>&#9319; Create a new directory</h3>
 <p>Proceed to File Explorer and create the directory in "C:" naming the new folder "PHP" </p>
-<img width="647" alt="PHP" src="https://imgur.com/o6lzV8L.png">
+<img width="647" alt="PHP" src="https://imgur.com/AP3sxXs.png">
 <br>
 <br>
 <h3>&#9320; Download and install PHP 7.3.8 </h3>
 <p> Download and install php-7.3.8-nts-Win32-VC15-x86.zip from the <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> installation files </a> and extract the contents into the newly created PHP folder </p>
-<img width="720" alt="PHP zip" src="https://imgur.com/qTk4Jvs.png">
+<img width="720" alt="PHP zip" src="https://imgur.com/AgERChE.png">
 <br>
 <h3>&#9321; Download and install VC_redist.x86.exe </h3>
 <br>
@@ -120,21 +120,21 @@ Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Des
 <p> Typical Setup -> Launch Configuration Wizard after install -> Standard Configuration
 </p>
 <br>
-<img width="420" alt="mysql" src="https://imgur.com/7bAjTu8.png">
+<img width="420" alt="mysql" src="https://imgur.com/UXdU64D.png">
 <br>
 <h3>&#9323; Launch IIS as an administrator</h3>
 <p> Search IIS in the Windows search bar, then right click and select "Open as Administrator"</p>
 <br>
 <h3>&#9324; Register PHP Manager </h3>
 <br>
-<img width="720" alt="PHP registration 2" src="https://imgur.com/TqBGNXk.png">
+<img width="720" alt="PHP registration 2" src="https://imgur.com/BEmvAuY.png">
 
 <br>
 <br>
 <p><strong> NOTE: Registration will require you to provide a path to "php-cgie.exe". Lead it to the PHP folder previously created and you will find the file "php-cgi"
 </strong></p>
 <br>
-<img width="700" alt="PHP path " src="https://imgur.com/XhTcV2b.png">
+<img width="700" alt="PHP path " src="https://imgur.com/Pewjk2r.png">
 
 <br>
 <p>
@@ -142,30 +142,30 @@ Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Des
 <h3>&#9325; Restart the IIS server</h3>
 <p> The restart button can be found on the right side of the window under Actions -> Manage Server.</p>
 <br>
-<img width="623" alt="Restart IIS" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/89c60a3c-2556-4909-ad78-4ae501b38da1">
+<img width="623" alt="Restart IIS" src="https://imgur.com/KHl2nlC.png">
 <br>
 <br>
 <h3>&#9326; Download and install osTicket</h3>
 <p> Download and install osTicket v1.15.8 from the installation files and extract the contents to c:\inetpub\wwwroot </p>
 <br>
-<img width="547" alt="inetpub" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/bea57cd3-27f4-4564-9cb4-1bfd7492b6ca">
+<img width="547" alt="inetpub" src="https://imgur.com/KqDNCsS.png">
 <br>
 <br>
 <p> Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”</p>
 <br>
-<h3>&#9327; Restart the IIS server once more.</h3>
-<img width="623" alt="Restart IIS" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/89c60a3c-2556-4909-ad78-4ae501b38da1">
+<h3>&#9327; Restart the IIS Again.</h3>
+<img width="623" alt="Restart IIS" src="https://imgur.com/KHl2nlC.png">
 <br>
 <br>
 <h3>&#9328; Launch osTicket </h3>
 <p>Under Connections in IIS, VM-osTicket -> Sites -> Default Web Site -> osTicket</p>
-<img width="623" alt="osTicket" src="https://imgur.com/xcY5ZMu.png">
+<img width="623" alt="osTicket" src="https://imgur.com/bgZrJzV.png">
 <p></p>
 <p><strong>NOTE: Click on osTicket</strong></p>
 
 <h3>&#9329; Select Browse *80 to launch osTicket</h3>
 <p> On the right side of the window, under Actions -> Manage Folder -> Click on Browse *:80 (http) </p>
-<img width="623" alt="browse80" src="https://imgur.com/VrPM2ii.png">
+<img width="623" alt="browse80" src="https://imgur.com/yiQjEcK.png">
 <br>
 <br>
 <p><strong>This should lead to osTicket opening in a separate Windows broswer</strong>.</p>
