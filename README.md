@@ -162,19 +162,16 @@ Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Des
 <img width="623" alt="osTicket" src="https://imgur.com/xcY5ZMu.png">
 <p></p>
 <p><strong>NOTE: Click on osTicket</strong></p>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
+
 <h3>&#9329; Select Browse *80 to launch osTicket</h3>
 <p> On the right side of the window, under Actions -> Manage Folder -> Click on Browse *:80 (http) </p>
 <img width="623" alt="browse80" src="https://imgur.com/VrPM2ii.png">
-<br>
 <br>
 <br>
 <p><strong>This should lead to osTicket opening in a separate Windows broswer</strong>.</p>
 <br>
 <br>
 <img width="664" alt="osTicket browser" src="https://imgur.com/yOa0Jy8.png">
-<br>
 <br>
 <br>
 <h3>&#9330; Enable extensions</h3>
@@ -186,12 +183,10 @@ Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Des
 <img width="273" alt="php enable 2" src="https://imgur.com/zEFHkoN.png">
 <br>
 <br>
-<br>
 <h3>&#9331; Refresh osTicket</h3>
 
 <p>After refreshing your web browser on osTicket, notice how more features are now available to use.</p>
 <img width="608" alt="OSticket changes" src="https://imgur.com/bdJ05kP.png">
-<br>
 <br>
 <br>
 
@@ -201,7 +196,6 @@ Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Des
 <img width="527" alt="ostconfig rename" src="https://imgur.com/yP1YTT0.png">
 <br>
 <br>
-<br>
 
 <h3>&#12882; Change ost-config.php permissions</h3>
 
@@ -209,8 +203,6 @@ Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Des
 <p>Properties -> Security -> Advance -> Disable Inheritance</p> 
 <p>Select "remove all inherited permissions" and add everyone as a principal. Select all boxes to ensure all permissions are granted. </p>
 <img width="571" alt="Permissions" src="https://imgur.com/mANNCMT.png">
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
 
 <h3>&#12883; Continue osTicket installation</h3>
 
@@ -220,16 +212,11 @@ Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Des
 <br>
 <p><strong>NOTE: The database credentials we'll fill out later.</strong> </p>
 <br>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
 
 <h3>&#12884; Download and install Heidi SQL from the installation files</h3>
 
 <p>Open Heidi SQL and create a new session. Make sure to fill in the username as root and create a password. After filling up your credentials now click open and a new session should show up.
 </p>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
 
 <h3>&#12885; Create new database </h3>
 
@@ -237,15 +224,12 @@ Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Des
 <img width="512" alt="SQL" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/eaa5aa61-2eea-4406-a7d7-fa77616dbe16">
 <br>
 <br>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
 
 <h3>&#12886; Finish osTicket Sign-Up</h3>
 
 <p>Revert back to your osTicket browser and fill out the incomplete credentials.</p>
 <img width="308" alt="osticket final signup" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/a185574b-775a-49fb-9468-c5d82033e823">
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
+
 
 <h3>&#12887; Finalize osTicket installation</h3>
 
