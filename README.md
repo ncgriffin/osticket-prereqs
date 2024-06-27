@@ -109,7 +109,7 @@ Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Des
 <img width="647" alt="PHP" src="https://imgur.com/o6lzV8L.png">
 <br>
 <br>
-<h3>&#9320; Download and install php-7.3.8-nts-Win32-VC15-x86.zip </h3>
+<h3>&#9320; Download and install PHP 7.3.8 </h3>
 <p> Download and install php-7.3.8-nts-Win32-VC15-x86.zip from the <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> installation files </a> and extract the contents into the newly created PHP folder </p>
 <img width="720" alt="PHP zip" src="https://imgur.com/qTk4Jvs.png">
 <br>
