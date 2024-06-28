@@ -180,7 +180,7 @@ Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Des
 <p>[X]Enable: php_imap.dll</p>
 <p>[X]Enable: php_intl.dll</p>
 <p>[X]Enable: php_opcache.dll</p>
-<img width="273" alt="php enable 2" src="https://imgur.com/zEFHkoN.png">
+<img width="273" alt="php enable 2" src="https://imgur.com/8QO0yIO.png">
 <br>
 <br>
 <h3>&#9331; Refresh osTicket</h3>
@@ -221,14 +221,14 @@ Confirm that RDP (3389) is allowed in "Select inbound ports" to allow Remote Des
 <h3>&#12885; Create new database </h3>
 
 <p>On the left side of the window, right click on "Unnamed" and create a new database named "osTicket".</p>
-<img width="512" alt="SQL" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/eaa5aa61-2eea-4406-a7d7-fa77616dbe16">
+<img width="512" alt="SQL" src="https://imgur.com/AbElzBn.png">
 <br>
 <br>
 
 <h3>&#12886; Finish osTicket Sign-Up</h3>
 
 <p>Revert back to your osTicket browser and fill out the incomplete credentials.</p>
-<img width="308" alt="osticket final signup" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/a185574b-775a-49fb-9468-c5d82033e823">
+<img width="375" alt="osticket final signup" src="https://imgur.com/B2A1SMM.png">
 
 
 <h3>&#12887; Finalize osTicket installation</h3>
